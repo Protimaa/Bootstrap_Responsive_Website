@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+
+    <!-- font awesome cdn links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-md">
+                
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDeopdown" aria-controls="navbarNavDeopdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars navbar-icon"></i></span>
+              </button>
+
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.JPG" alt="logo">
+              </a>
+              
+              <div class="collapse navbar-collapse" id="navbarNavDeopdown">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a href="#" class="nav-link text-center text-md-left"> Home </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#about-me" class="nav-link text-center text-md-left">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#tutorial" class="nav-link text-center text-md-left">Tutorials</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#feedback" class="nav-link text-center text-md-left">Feedback</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contact" class="nav-link text-center text-md-left">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <section id="banner">
+              <div class="banner-container d-flex justify-content-center align-items-center">
+                <div class="banner-contents text-center">
+                  <h1 class="font-weight-bolder text-white mb-5">Learn Something New !!!</h1>
+                  <button class="btn btn-lg btn-primary mr-3"><i class="fas fa-play mr-2" onclick="location.href='#tutorial'"></i> Tutorials</button>
+                  <button class="btn btn-lg btn-primary mr-3" onclick="window.open('https://www.youtube.com/channel/UC9y4jvodjne3DEEcMyJpFWQ')" class="request-callback"><i class="fab fa-youtube mr-2"></i> Subscribe</button>
+                </div>
+              </div>
+            </section>
+
+            
+        </header>
+
+        <main>
+          <!-- features starts from here  -->
+          <section id="features" class="text-center">
+            <div class="row">
+              <div class="col-lg-4 d-block d-lg-flex">
+                <div class="features-col">
+                  <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                  <h5 class="font-weight-bolder">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi dolo</p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 d-block d-lg-flex">
+                <div class="features-col">
+                  <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                  <h5 class="font-weight-bolder">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi doloribus ab molestiae cumque, ducimus nam?</p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 d-block d-lg-flex">
+                <div class="features-col ">
+                  <i class="fas fa-hand-holding-usd fa-3x icon-style rounded-circle"></i>
+                  <h5 class="font-weight-bolder">Free to use</h5>
+                  <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi doloribus ab molestiae cumque, ducimus nam?</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- features ends from here  -->
+          <!-- about-me section starts from here  -->
+          <section id="about-me">
+            <div class="section-title">
+              <h3 class="text-center">About Me</h3>
+              <hr class="hr-style" style="border-color: black;">
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="basic-desc text-center text-lg-left">
+                  <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                  <h5 class="font-weight-bolder">Personal Info</h5>
+                  <p>Name: Protima Rani Das</p>
+                  <p>Profession: Web Developer</p>
+                  <p>Current Address: Dhaka, Bangladesh</p>
+                  <p>Website: <a href="https://protima-express.netlify.app/" target="_blank">Protima Express Netlify App/</a></p>
+                  <p><a target="_blank" href="https://drive.google.com/file/d/1-3USPffe2ieJ84BxkQb1HVkTBETZsxc2/view?usp=share_link">
+                    <button class="btn btn-primary">
+                      Download CV
+                    </button>
+                  </a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-5 mb-lg-0">
+              <div class="col-lg-7"></div>
+              <div class="col-lg-5">
+                <div class="achieve-desc text-center text-lg-left">
+                  <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                  <h5 class="font-weight-bolder">Achivements</h5>
+                  <p><span>100% Tuition Waiver: </span>Lorem ipsum dolor sit amet.</p>
+                  <p><span>100% Tuition Waiver: </span>Lorem ipsum dolor sit amet.</p>
+                  <p><span>100% Tuition Waiver: </span>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="basic-desc text-center text-lg-left">
+                  <i class="icon-style rounded-circle far fa-user fa-2x"></i>
+                  <h5 class="font-weight-bolder">Personal Info</h5>
+                  <p>Name: Protima Rani Das</p>
+                  <p>Profession: Web Developer</p>
+                  <p>Current Address: Dhaka, Bangladesh</p>
+                  <p>Website: <a href="https://protima-express.netlify.app/" target="_blank">Protima Express Netlify App/</a></p>
+                  <p><a target="_blank" href="https://drive.google.com/file/d/1-3USPffe2ieJ84BxkQb1HVkTBETZsxc2/view?usp=share_link">
+                    <button class="btn btn-primary">
+                      Download CV
+                    </button>
+                  </a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mb-5 mb-lg-0">
+              <div class="col-lg-7"></div>
+              <div class="col-lg-5">
+                <div class="achieve-desc text-center text-lg-left">
+                  <i class="icon-style rounded-circle fas fa-trophy fa-2x"></i>
+                  <h5 class="font-weight-bolder">Achivements</h5>
+                  <p><span>100% Tuition Waiver: </span>Lorem ipsum dolor sit amet.</p>
+                  <p><span>100% Tuition Waiver: </span>Lorem ipsum dolor sit amet.</p>
+                  <p><span>100% Tuition Waiver: </span>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="skill-desc text-center text-lg-left">
+                  <i class="icon-style rounded-circle fas fa-briefcase fa-2x"></i>
+                  <h5 class="font-weight-bolder">Skills</h5>
+
+                  <table>
+                    <tr>
+                      <td>HTML</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>CSS</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>JS</td>
+                      <td>
+                        <span class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half"></i>
+                          <i class="far fa-star"></i>
+                        </span>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- about-me section ends from here  -->
+          <!-- tutorils section ends from here  -->
+          <section id="tutorial">
+            <div class="section-title">
+              <h3 class="text-center">Tutorial</h3>
+              <hr class="hr-style" style="border-color:black">
+            </div>
+
+            <div class="row text-center mb-3">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <div class="row text-center mb-3">
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card mb-5 m-lg-0">
+                  <img class="card-img-top" src="images/logo.JPG" alt="Protima's card photo">
+                  <div class="card-body text-center">
+                    <h3 class="card-title font-weight-bolder">HSC ICT</h3>
+                    <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </section>
+          <!-- tutorils section ends from here  -->
+          <!-- feedback section starts from here  -->
+          <section id="feedback">
+            <div class="section-title">
+              <h3 class="text-center text-light">Feedback</h3>
+              <hr class="hr-style">
+            </div>
+
+            <div class="row">
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa officia tempora veniam! Qui vero odit odio! Mollitia exercitationem explicabo laborum.</p>
+                    <img class="rounded-circle feedback-img" src="images/logo.JPG" alt="First slide">
+                    <h6>Protima Rani Das</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <p>2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa officia tempora veniam! Qui vero odit odio! Mollitia exercitationem explicabo laborum.</p>
+                    <img class="rounded-circle feedback-img" src="images/logo.JPG" alt="First slide">
+                    <h6>Protima Rani Das</h6>
+                  </div>
+                  <div class="carousel-item">
+                    <p>3. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa officia tempora veniam! Qui vero odit odio! Mollitia exercitationem explicabo laborum.</p>
+                    <img class="rounded-circle feedback-img" src="images/logo.JPG" alt="First slide">
+                    <h6>Protima Rani Das</h6>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- feedback section ends from here  -->
+          <!-- Contact me section starts from here  -->
+          <section id="contact">
+            <div class="section-title">
+              <h3 class="text-center text-light">Contact Me</h3>
+              <hr class="hr-style">
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <form action="mailto:protima.swe@gmail.com" method="post" enctype="text/plain" class="was-validated">
+
+                  <div class="form-group mb-1">
+                    <label for="fullname">FullName</label>
+                    <input type="text" class="form-control" name="fullname" required>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback" style="color: white;" >Enter fullname before submitting the form</div>
+                  </div>
+
+                  <div class="form-group mb-1">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" required>                    
+                  </div>
+
+                  <div class="form-group mb-1">
+                    <label for="message">Message</label>
+                    <textarea style="resize: none;" name="" id="" class="form-control" cols="30" rows="4"></textarea>                  
+                  </div>
+                  <div class="form-group mb-1 text-center">
+                    <input type="submit" class="btn btn-primary mr-3" value="Submit">
+                    <input type="reset" class="btn btn-primary" value="Reset">
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </section>
+
+          <!-- Contect me section ends from here  -->
+        </main>
+
+        <footer>
+          <div class="row text-white">
+            <div class="col-lg-6 text-center text-lg-left mb-3 mb-lg-0">
+              <p class="small mb-0 mt-1">&copy; Copyright Protima Rani Das</p>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+              <a href="#">Home</a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+        </footer>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
